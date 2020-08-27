@@ -1,0 +1,120 @@
+@media only screen and (min-device-width: 375px) {
+
+    :root {
+        --verydarkblue: hsl(217, 19%, 35%);
+        --darkblue: hsl(214, 17%, 51%);
+        --blue: hsl(212, 23%, 69%);
+        --lightblue: hsl(210, 46%, 95%);
+        --white: rgb(255, 255, 255);
+      }
+
+    body {
+        width: 100%;
+        font-size: 13px;
+        font-weight: 500;
+        color: var(--verydarkblue);
+        font-family: 'Manrope', sans-serif;
+        background-color: var(--lightblue);
+        padding: 0;
+        margin: 0;
+        line-height: 1.5;
+    }
+
+    .teaser {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 300px;
+        width: 720px; 
+        height: 300px;
+        border: 0px solid;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    /*------BILDER------*/
+
+    .teaserimage {
+        padding: 0px;
+        margin: 0px;
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+    .teaserimage img {
+        border-radius: 10px 0 0 10px;
+        display: inline-block;
+    }
+
+    .avatar {
+        padding: 0px;
+        margin: 0px;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+    }
+
+    .avatar img {
+        border-radius: 100%;
+        display: inline-block;
+    }
+
+    .share {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .share img {
+        border-radius: 100%;
+        display: inline-block;
+    }
+
+    /*------CONTENT------*/
+
+    .teasercontent {
+        display: inline-block;
+        margin: 30px;
+    }
+
+
+    /*------TEXT------*/
+    p {
+        color: var(--blue);
+    }
+
+    h2 {
+        font-size: 20px;
+        margin: 0;
+        font-weight: 500;
+    }
+
+    h4 {
+        font-size: 13px;
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+    }
+
+    .pavatar {
+        margin: 3px 0 0 0;
+        padding: 0; 
+    }
+
+    .attribution {
+        display: none;
+    }
+
+    .avatar_share {
+        display: block;
+    }
+
+    li {
+        list-style-type: none;
+    }
+}
+
+@media only screen and (min-device-width: 1440px) {
+    
+
+}
