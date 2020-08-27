@@ -53,6 +53,7 @@
         width: 40px;
         height: 40px;
         border-radius: 100%;
+        padding-right: 15px;
     }
 
     .avatar img {
@@ -67,7 +68,7 @@
 
     .share img {
         border-radius: 100%;
-        display: inline-block;
+        background-color: var(--lightblue);
     }
 
     /*------CONTENT------*/
@@ -76,7 +77,6 @@
         display: inline-block;
         margin: 30px;
     }
-
 
     /*------TEXT------*/
     p {
@@ -96,18 +96,33 @@
         font-weight: 500;
     }
 
-    .pavatar {
-        margin: 3px 0 0 0;
-        padding: 0; 
-    }
-
     .attribution {
         display: none;
     }
 
-    .avatar_share {
-        display: block;
+    /*-----CONTAINER-----*/
+
+    .container_avatar {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
     }
+
+    .container_beschriftung p {
+        margin: 3px 0 0 0;
+        padding: 0; 
+    }
+
+    .container_mit_share {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+
+
+
+
 
     li {
         list-style-type: none;
